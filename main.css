@@ -1,0 +1,74 @@
+body {
+    background: #282828;
+}
+
+.container {
+    width: 750px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.color-picker {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px auto;
+    width: 750px;
+}
+
+.color-select {
+    cursor: pointer;
+    font: 18px/26px Arial;
+    color: #fff;
+    border: 1px solid;
+    padding: 10px 20px;
+}
+
+.magenta {
+    color: #FF0090;
+    border-color: #FF0090;
+}
+
+.cyan {
+    color: #00FFFF;
+    border-color: #00FFFF;
+}
+
+.yellow {
+    color: #ffff00;
+    border-color: #ffff00;
+}
+
+.revert-magenta {
+    color: #282828;
+    background: #FF0090;
+}
+
+.revert-cyan {
+    background: #00FFFF;
+    color: #282828;
+}
+
+.revert-yellow {
+    background: #ffff00;
+    color: #282828;
+}
+
+.dot {
+    //width: 15px;
+    //height: 15px;
+    background: #494949;
+    border-radius: 50%;
+    margin: 5px;
+    cursor: pointer;
+    transition: all .5s;
+}
+
+.dot:hover {
+    background: #ffea30;
+}
+
+.is-active {
+    background: #ffea30;
+}
